@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"chzzk_donation_qa","version":"1.0.0","name":"CHZZK API QA (not shipped)","environment":"*","entrypoints":{"main":["dev.leru.chzzk.qa.QaMod"],"client":["dev.leru.chzzk.qa.QaClient"]},"depends":{"chzzk_donation_api":"*"}}

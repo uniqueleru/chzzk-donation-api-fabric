@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "chzzk_donation_api",
+  "version": "${version}",
+  "name": "CHZZK Donation API",
+  "description": "Standalone CHZZK donation event API for dedicated and integrated Fabric servers.",
+  "authors": ["Leru", "Aris"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {"main": ["dev.leru.chzzk.fabric.ChzzkDonationMod"]},
+  "depends": {"fabricloader": ">=0.16.14", "minecraft": "1.21.1", "java": ">=21", "fabric-api": "*"}
+}
